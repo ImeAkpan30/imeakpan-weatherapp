@@ -79,7 +79,7 @@ hr {
     margin-bottom: 20px;
 }
 
-  /* Small devices (tablets, 768px and up) */
+  /* Small devices (280px and up) */
   @media (min-width: 280px) {
     #weatherContainer {
         padding: 0px;

@@ -1,0 +1,1 @@
+This weather app is a practice project of Google Africa Developers Scholarship(GADS) 2020 done using Html, CSS and Javascript with the use of an openweathermap API.
