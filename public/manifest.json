@@ -1,0 +1,21 @@
+{
+    "name": "ImeAkpan Weather App",
+    "short_name": "ImeAkpanWeatherApp",
+    "start_url": "/index.html",
+    "background_color": "#6dcdb1",
+    "theme_color": "#009578",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "images/maskable_icon.png",
+            "sizes": "225x225",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

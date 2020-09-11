@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#009578">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <!-- <link rel="apple-touch-icon" href="images/maskable_icon.png"> -->
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+</head>
+<body>
+    <div id="searchContainer">
+        <input type="text" class="searchControl" placeholder="City name or Zipcode" id="searchInput">
+        <button class="searchControl" id="searchBtn">Search</button>
+    </div>
+    <div id="weatherContainer">
+        <div id="weatherDescription">
+            <h1 id="cityHeader"></h1>
+            <div id="weatherMain">
+                <div id="temperature"></div>
+                <div id="weatherDescriptionHeader"></div>
+                <div><img id="documentIconImg"></div>
+            </div>
+            <hr>
+            <div id="windSpeed" class="bottomDetails"></div>
+            <div id="humidity" class="bottomDetails"></div>
+            <div id="longitude" class="bottomDetails"></div>
+            <div id="latitude" class="bottomDetails"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
